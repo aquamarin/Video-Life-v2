@@ -1,4 +1,4 @@
-<?php ?>
+
 <!DOCTYPE html>   <!--footer dakapanacak-->
 <html lang="en">
 <head>
@@ -9,11 +9,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/2fdf45b284.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script src="video.js"></script>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <!--home.php de kapanacak-->
+<!--acılıp kapanabilir menu-->
+<!--icerisinde ana sayfa ,trendler ve geçmiş  kısmı olacak-->
+<!--eger oturum acıldıysa kullanıcının abone oldugu kanalların listesi gelecek-->
+<!--kullanıcı kısmı gelecek-->
+<!--eger oturum acılmıssa video yükleme butonu olacak-->
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-xs-12 col-lg-12 ">
@@ -64,7 +69,7 @@
                                 <div class="col-md-2">
                                     <ul class="nav navbar-nav navbar-right">
                                         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Kayıt Ol</a></li>
-                                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Oturum Aç</a></li>
+                                        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Oturum Aç</a></li>
                                     </ul>
                                 </div>
 
@@ -73,16 +78,6 @@
 
                 </div>
             </nav>
-            <!--acılıp kapanabilir menu-->
-            <!--icerisinde ana sayfa ,trendler ve geçmiş  kısmı olacak-->
-            <!--eger oturum acıldıysa kullanıcının abone oldugu kanalların listesi gelecek-->
-
-            <!--<div class="row">-->
-
-            <!--</div>&lt;!&ndash; /.row &ndash;&gt;-->
-            <!--kullanıcı kısmı gelecek-->
-
-            <!--eger oturum acılmıssa video yükleme butonu olacak-->
 
         </div>
         <!-- <div class="col-xs-6 col-md-4">
