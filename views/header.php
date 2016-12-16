@@ -42,12 +42,12 @@
 <!--                            geciş için formlar baglantılar ve dropdownlar burada-->
                             <div  id="myNavbar" class="collapse navbar-collapse " aria-expanded="false" style="margin-top: 20px; position: relative;">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">Anasayfa  <span class="sr-only">(current)</span></a></li>
+                                    <li class="active"><a href="home.php">Anasayfa  <span class="sr-only">(current)</span></a></li>
                                     <li class="dropdown">
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Trendler <span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="#">Günün Trendleri</a></li>
-                                            <li><a href="#">Haftanın Trendleri</a></li>
+                                            <li><a href="trendler.php">Günün Trendleri</a></li>
+                                            <li><a href="trendler.php">Haftanın Trendleri</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Abonelikler</a></li>

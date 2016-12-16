@@ -1,7 +1,7 @@
 
 <?
-    require_once "views/header.php";
-    require_once "init.php";
+    require_once "header.php";
+
 ?>
 <div class="content" style="margin-top: 5px;">
     <div class="row">
@@ -105,4 +105,4 @@
     </div>
 </div>
 </body>
-<? include "views/footer.php";?>
+<? include "footer.php";?>
