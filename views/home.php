@@ -4,28 +4,13 @@
 
 ?>
 <div class="content" style="margin-top: 5px;">
+    <ul class="nav nav-tabs nav-justified" style="margin: auto; width: 650px; ">
+        <li role="presentation" class="active"><a href="#">Anasayfam</a></li>
+        <li role="presentation"><a href="#">Beğendiklerim</a></li>
+        <li role="presentation"><a href="#">Geçmiş</a></li>
+    </ul>
     <div class="row">
-        <div class="col-xs-1">
-            <div id="appbar-nav-menu">
-                <!--glyphicon glyphicon-menu-hamburger-->
-                <!--glyphicon glyphicon-home-->
-                <!--glyphicon glyphicon-fire-->
-                <!--glyphicon glyphicon-time-->
-                <!--col-xs-12 col-sm-8 col-md-4 col-lg-2-->
-                <div class="dropdown" style="background-color: #c4e3f3">
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><span class="fa fa-user-o" aria-hidden="true" ></span>
-                        <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li> <a href="#" class="list-group-item active"><span class="fa fa-home" aria-hidden="true"> </span> Anasayfa</a></li>
-                        <li><a href="#" class="list-group-item"><span class="fa fa-user-circle" aria-hidden="true"> </span> Kanalım</a></li>
-                        <li><a href="#" class="list-group-item"><span class="fa fa-fire" aria-hidden="true">&nbsp;</span> Trendler</a></li>
-                        <li><a href="#" class="list-group-item"><span class="fa fa-hourglass-end" aria-hidden="true"> </span> Geçmiş</a></li>
-                    </ul>
-                </div>
-
-            </div>
-
-        </div>
+        <? require_once "left-dropdown.php"; ?>
 
         <div class="col-xs-12 col-md-8 col-lg-10">
             <div class="media">
