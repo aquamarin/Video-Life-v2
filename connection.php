@@ -1,8 +1,10 @@
 <?php
-// Veritabanı sunucusuna bağlanacağım
-$connection = @mysqli_connect("localhost", "root", "");
-// Veritabanını seçeceğim
-mysqli_select_db("videoLife", $connection);
+$connection = new PDO("mysql:host=localhost:8080;dbname=videolife;charset=utf8", "root", "");
 
-// utf8 karakter seti ile haberleşeceğimi belirteceğim
-mysqli_set_charset("utf8", $connection);
+/*$db = @new mysqli('localhost:8080', 'root', '', 'videolife');
+if ($db->connect_errno)
+    die('Bağlantı Hatası:' . $db->connect_error);
+
+/* Tablo veri karakter yapısı
+$db->set_charset("utf8");
+*/
