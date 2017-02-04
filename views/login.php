@@ -11,7 +11,8 @@
     </head>
 <!--    kullanıcı email, kullanıcı adı, password ile sisteme giriş yapacak. formun nasıl görünecegi burada-->
     <body>
-        <div class="container">
+
+       <!-- <div class="container">
             <form class="form-horizontal">
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
@@ -39,7 +40,7 @@
                         <button type="submit" class="btn btn-default">Sign in</button>
                     </div>
                 </div>
-            </form>
+            </form>-->
         </div>
     </body>
 </html>

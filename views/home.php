@@ -12,6 +12,7 @@
             <div class="media">
                 <div class="col-sm-12 col-lg-4">
                     <!-- 4:3 görünüş oranı -->
+<!--                    büyük videonun olduğu kısım-->
                     <div class="embed-responsive embed-responsive-4by3">
 <!--                        "C:\Users\Ebru\Downloads\Video\videolar\twenty one pilots - Heathens.ogg" -->
                         <video
@@ -27,6 +28,7 @@
                         </div>-->
                     </div>
                 </div>
+<!--                yan orta boy videoların kısmı-->
                 <div class="col-xs-12 col-md-4 col-lg-3">
                     <div class="video-thumb">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SqQvZ_VUtg8"></iframe>
@@ -52,7 +54,7 @@
             </div>
             <div class="video-series">
                 <!--<div class="row">-->
-                <!--burada daha önce izlenen videolar serisi olacak-->
+                <!--burada daha önce izlenen videolar serisi olacak. bu videolar küçük boyutta olacak-->
                 <div class="col-sm-6 col-md-4 col-lg-2">
                     <a href="#">
                         <img src="https://img.youtube.com/vi/SXiSVQZLje8/default.jpg ">
@@ -84,9 +86,9 @@
         </div>
     </div>
     <!-- Optional: clear the XS cols if their content doesn't match in height -->
-    <div class="clearfix visible-xs-block">
+    <!--<div class="clearfix visible-xs-block">
 
-    </div>
+    </div>-->
 </div>
 </body>
 <? include "footer.php";?>
