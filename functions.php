@@ -5,5 +5,5 @@ function redirectIfNotLoggedIn(){
 }
 // giriş yaptıysa ana sayfaya yönlendir
 function redirectIfLoggedIn(){
-    if(isset($_SESSION['userID'])) header("Location: index.php");
+    if(isset($_SESSION['userID'])) header("Location: home.php");
 }

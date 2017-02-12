@@ -53,7 +53,7 @@
                                     <li><a href="#">Abonelikler</a></li>
 
                                 </ul>
-                                <div class="col-md-4 col-lg-6">
+                                <div class="col-md-4 col-lg-4">
                                     <div class="input-group">
 <!--                                        arama butonu-->
                                         <input type="text" class="form-control" placeholder="Ara">
@@ -66,10 +66,80 @@
                                     </div><!-- /input-group -->
                                 </div><!-- /.col-lg-6 -->
                                 <!--oturum açma butonu-->
-                                <div class="col-md-2">
+                                <div >
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Kayıt Ol</a></li>
-                                        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Oturum Aç</a></li>
+                                        <li class="dropdown open">
+                                            <a href="http://phpoll.com/register" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Register <span class="caret"></span></a>
+                                            <ul class="dropdown-menu dropdown-lr animated flipInX" role="menu">
+                                                <div class="col-lg-12">
+                                                    <div class="text-center"><h3><b>Register</b></h3></div>
+                                                    <form id="ajax-register-form" action="http://phpoll.com/register/process" method="post" role="form" autocomplete="off">
+                                                        <div class="form-group">
+                                                            <input name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="" type="text">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="" type="email">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input name="password" id="password" tabindex="2" class="form-control" placeholder="Password" type="password">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password" type="password">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="row">
+                                                                <div class="col-xs-6 col-xs-offset-3">
+                                                                    <input name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-info" value="Register Now" type="submit">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <input class="hide" name="token" id="token" value="7c6f19960d63f53fcd05c3e0cbc434c0" type="hidden">
+                                                    </form>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown open">
+                                            <a href="http://phpoll.com/login" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Log In <span class="caret"></span></a>
+                                            <ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu">
+                                                <div class="col-lg-12">
+                                                    <div class="text-center"><h3><b>Log In</b></h3></div>
+                                                    <form id="ajax-login-form" action="http://phpoll.com/login/process" method="post" role="form" autocomplete="off">
+                                                        <div class="form-group">
+                                                            <label for="username">Kullanıcı Adı</label>
+                                                            <input name="username" id="username" tabindex="1" class="form-control" placeholder="Kullanıcı Adı" value="" autocomplete="off" type="text">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="password">Parola</label>
+                                                            <input name="password" id="password" tabindex="2" class="form-control" placeholder="Parola" autocomplete="off" type="password">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <div class="row">
+                                                                <div class="col-xs-7">
+                                                                    <input tabindex="3" name="remember" id="remember" type="checkbox">
+                                                                    <label for="remember"> Hatırla Beni</label>
+                                                                </div>
+                                                                <div class="col-xs-5 pull-right">
+                                                                    <input name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-success" value="Log In" type="submit">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <div class="text-center">
+                                                                        <a href="http://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <input class="hide" name="token" id="token" value="a465a2791ae0bae853cf4bf485dbe1b6" type="hidden">
+                                                    </form>
+                                                </div>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </div>
 

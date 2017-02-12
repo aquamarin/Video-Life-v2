@@ -12,9 +12,9 @@
                 <span class="caret"></span></button>
             <ul class="dropdown-menu">
                 <!--        buraya yeni sayfalar eklemeyi unutma-->
-                <li> <a href="#" class="list-group-item active"><span class="fa fa-home" aria-hidden="true"> </span> Anasayfa</a></li>
+                <li> <a href="home.php" class="list-group-item active"><span class="fa fa-home" aria-hidden="true"> </span> Anasayfa</a></li>
                 <li><a href="#" class="list-group-item"><span class="fa fa-user-circle" aria-hidden="true"> </span> Kanalım</a></li>
-                <li><a href="#" class="list-group-item"><span class="fa fa-fire" aria-hidden="true">&nbsp;</span> Trendler</a></li>
+                <li><a href="trendler.php" class="list-group-item"><span class="fa fa-fire" aria-hidden="true">&nbsp;</span> Trendler</a></li>
                 <li><a href="#" class="list-group-item"><span class="fa fa-hourglass-end" aria-hidden="true"> </span> Geçmiş</a></li>
             </ul>
         </div>
