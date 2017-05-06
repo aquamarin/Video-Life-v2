@@ -9,3 +9,17 @@
     float: left;
     margin: 5px;
 }
+.jumbotron{
+    text-align: center;
+}
+.media{
+    padding-top: 10px;
+
+}
+.FourVideo{
+       margin-top: 15px;
+}
+.col-md-4 .col-lg-2 .col-sm-6{
+    padding-left: 3px;
+    padding-right: 3px;
+}

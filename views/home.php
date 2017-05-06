@@ -10,75 +10,65 @@
 
         <div class="col-xs-12 col-md-8 col-lg-10">
             <div class="media">
-                <div class="col-sm-12 col-lg-4">
+                <div class="col-sm-12 col-lg-5">
                     <!-- 4:3 görünüş oranı -->
 <!--                    büyük videonun olduğu kısım-->
-                    <div class="embed-responsive embed-responsive-4by3">
-<!--                        "C:\Users\Ebru\Downloads\Video\videolar\twenty one pilots - Heathens.ogg" -->
-                        <video
-                          src="C:\Users\Ebru\Downloads\Video\videolar\twenty one pilots - Heathens.mp4" >
-                        </video>
-                        <!--<div class="row">
-                            <div class="col-sm-6">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DaVA6sgOpws"></iframe>
-                            </div>
-                            <div class="col-sm-6">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DaVA6sgOpws"></iframe>
-                            </div>
-                        </div>-->
-                    </div>
+                    <a href="#" onMouseOver="picture_on('play','psd-play-button.jpg');" onMouseOut="picture_on('normal','BLACKPINK - '붐바야'(BOOMBAYAH) M_V.jpg');">
+                    <img src="/Video-Life-v2/images/BLACKPINK - '붐바야'(BOOMBAYAH) M_V.jpg"  title="Blakpink-Boombayah" class="img-thumbnail" name="normal">
+<!--                        <img src="/Video-Life-v2/images/psd-play-button.jpg" name="play">-->
+                    </a>
+
                 </div>
 <!--                yan orta boy videoların kısmı-->
-                <div class="col-xs-12 col-md-4 col-lg-3">
-                    <div class="video-thumb">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SqQvZ_VUtg8"></iframe>
-                    </div>
+                <div class="FourVideo">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 3px;">
+                    <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="img-thumbnail">
                 </div>
-                <div class="col-xs-12 col-md-4 col-lg-3">
-                    <div class="video-thumb">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SqQvZ_VUtg8"></iframe>
-                    </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 3px;">
+                    <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="img-thumbnail">
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-4 col-lg-3">
-                        <div class="video-thumb">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SqQvZ_VUtg8"></iframe>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-4 col-lg-3">
-                        <div class="video-thumb">
-                            <iframe class="embed-responsive-item" src="https://img.youtube.com/vi/SqQvZ_VUtg8/mqdefault.jpg "></iframe>
-                        </div>
-                    </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="img-thumbnail">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="img-thumbnail">
                 </div>
             </div>
-            <div class="video-series">
+            </div>
+            <div class="video-series" style="margin-top: 10px;">
                 <!--<div class="row">-->
                 <!--burada daha önce izlenen videolar serisi olacak. bu videolar küçük boyutta olacak-->
                 <div class="col-sm-6 col-md-4 col-lg-2">
                     <a href="#">
-                        <img src="https://img.youtube.com/vi/SXiSVQZLje8/default.jpg ">
+
+                        <img src="/Video-Life-v2/images/Ariana Grande - Side To Side ft. Nicki Minaj.jpg" title="Ariana Grande - Side To Side" class="img-thumbnail">
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
 
                     <a href="#" >
-                        <img src="https://img.youtube.com/vi/SXiSVQZLje8/default.jpg ">
+                        <img src="/Video-Life-v2/images/Ariana Grande - Side To Side ft. Nicki Minaj.jpg" title="Ariana Grande - Side To Side" class="img-thumbnail">
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
                     <a href="#" >
-                        <img src="https://img.youtube.com/vi/SXiSVQZLje8/default.jpg ">
+                        <img src="/Video-Life-v2/images/Ariana Grande - Side To Side ft. Nicki Minaj.jpg" title="Ariana Grande - Side To Side" class="img-thumbnail">
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
                     <a href="#" >
-                        <img src="https://img.youtube.com/vi/SXiSVQZLje8/default.jpg ">
+                        <img src="/Video-Life-v2/images/Ariana Grande - Side To Side ft. Nicki Minaj.jpg" title="Ariana Grande - Side To Side" class="img-thumbnail">
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
                     <a href="#" >
-                        <img src="https://img.youtube.com/vi/SXiSVQZLje8/default.jpg ">
+                        <img src="/Video-Life-v2/images/Ariana Grande - Side To Side ft. Nicki Minaj.jpg" title="Ariana Grande - Side To Side" class="img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <a href="#" >
+                        <img src="/Video-Life-v2/images/Ariana Grande - Side To Side ft. Nicki Minaj.jpg" title="Ariana Grande - Side To Side" class="img-thumbnail">
                     </a>
                 </div>
                 <!--</div>-->
