@@ -1,25 +1,21 @@
-.head-logo-container {
-    float: left;
-    /*yeni logo için tekrar margin ayarı yapilacak*/
-    margin-top: 3px;
-    /*width: 200px;*/
-    position: relative;
-}
-.embed-responsive-item{
-    float: left;
-    margin: 5px;
-}
-.jumbotron{
-    text-align: center;
-}
-.media{
-    padding-top: 10px;
-
-}
-.FourVideo{
-       margin-top: 15px;
-}
-.col-md-4 .col-lg-2 .col-sm-6{
+.container-fluid .row .container-fluid .navbar-header .navbar-brand img {
+  float: left;
+  width: 100px;
+  height: 75px;
+  margin-top: 3px;
+  position: relative; }
+.container-fluid .jumbotron {
+  text-align: center; }
+.container-fluid .media {
+  padding-top: 10px; }
+  .container-fluid .media .FourVideo {
+    margin-top: 15px; }
+  .container-fluid .media .col-md-4 .col-lg-2 .col-sm-6 {
     padding-left: 3px;
-    padding-right: 3px;
-}
+    padding-right: 3px; }
+.container-fluid .container #thumbnail {
+  margin-bottom: 5px; }
+.container-fluid .content #videoPage {
+  padding-top: 10px; }
+
+/*# sourceMappingURL=style.css.map */

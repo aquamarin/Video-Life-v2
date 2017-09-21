@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - @localhost" uuid="4cd2e958-bd97-4e46-98d3-0670bc4616c0">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>:</introspection-scope>
+      <resolve-scope>*</resolve-scope>
+    </data-source>
+    <data-source name="MySQL - @localhost [2]" uuid="199f202d-f58f-4c8d-816c-ed0a5ba492a1">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <resolve-scope>*</resolve-scope>
+    </data-source>
+    <data-source name="MySQL - videolife@localhost" uuid="d46c07f2-7abb-4d74-bce5-bd674f73f579">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>videolife:</introspection-scope>
+      <resolve-scope>videolife:</resolve-scope>
+    </data-source>
+  </component>
+</project>

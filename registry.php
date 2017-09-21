@@ -1,5 +1,5 @@
 <?php
-include ("functions.php");
+
 //	kullanıcı zaten giriş yaptıysa ana sayfaya yönlendirelim
 session_start();
 redirectIfLoggedIn();
@@ -16,15 +16,15 @@ if(isset($_POST['email']) && isset($_POST['password'])){
     $user = $checkUserQuery->fetch(MYSQL_ASSOC);
     if($user){
         $_SESSION['userID'] = $user->userID;
-         echo "BAŞARILI: Sisteme giriş yaptınız.";
+        Alert::add("BAŞARILI: Sisteme giriş yaptınız.");
         redirectIfLoggedIn();
         die();
     }else{
-        echo "!!!HATA: Sisteme giriş yapılamadı.";
+        Alert::add("!!!HATA: Sisteme giriş yapılamadı.");
         redirectIfNotLoggedIn();
         die();
     }
-    //	oturum açılırsa home.php'ye yönlendirelim
+    //	oturum açılırsa index.php'ye yönlendirelim
 }
 
 ?>
