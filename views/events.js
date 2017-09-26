@@ -11,4 +11,3 @@ function picture_off() {
     icon.src="/Video-Life-v2/images/BLACKPINK(BOOMBAYAH) M_V.jpg";
 
 }
-

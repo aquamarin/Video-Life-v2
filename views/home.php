@@ -16,42 +16,42 @@
                     <a href="videoPage.php"  >
                     <img  src="/Video-Life-v2/images/BLACKPINK(BOOMBAYAH) M_V.jpg "  title="Blakpink-Boombayah" class=" image img-thumbnail" id="normal">
                         <div class="middle">
-                            <img src="/Video-Life-v2/images/psd-play-button.jpg" class="text" >
+                            <img src="#" class="text" >
                         </div>
-<!--                        <img src="/Video-Life-v2/images/psd-play-button.jpg" name="play">-->
+<!--                        <img src="#" name="play">-->
 <!--                        onmouseover="picture_on()" onmouseout="picture_off()"-->
                     </a>
 
-                </div>
+                </div> <!-- .col-sm-12 col-md-12  col-lg-5 container-->
 <!--                yan orta boy videoların kısmı-->
                 <div class="FourVideo">
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 container"  class= "mainFour" style="margin-bottom: 3px;">
                     <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="image img-thumbnail">
                     <div class="middle">
-                       <img src="/Video-Life-v2/images/psd-play-button.jpg" class="text" >
+                       <img src="#" class="text" >
                      </div>
                 </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 container"  class= "mainFour" style="margin-bottom: 3px;">
                         <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="image img-thumbnail">
                         <div class="middle">
-                            <img src="/Video-Life-v2/images/psd-play-button.jpg" class="text" >
+                            <img src="#" class="text" >
                         </div>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 container"  class= "mainFour" style="margin-bottom: 3px;">
                         <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="image img-thumbnail">
                         <div class="middle">
-                            <img src="/Video-Life-v2/images/psd-play-button.jpg" class="text" >
+                            <img src="#" class="text" >
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 container"  class= "mainFour" style="margin-bottom: 3px;">
                         <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="image img-thumbnail">
                         <div class="middle">
-                            <img src="/Video-Life-v2/images/psd-play-button.jpg" class="text" >
+                            <img src="#" class="text" >
                         </div>
                     </div>
             </div>
-            </div>
+          </div> <!-- .media-->
             <div class="video-series" style="margin-top: 10px;">
                 <!--<div class="row">-->
                 <!--burada daha önce izlenen videolar serisi olacak. bu videolar küçük boyutta olacak-->
