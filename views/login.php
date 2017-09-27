@@ -1,23 +1,14 @@
-<!DOCTYPE html>   <!--footer dakapanacak-->
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Video Life</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://use.fontawesome.com/2fdf45b284.js"></script>
+  <!--footer dakapanacak-->
 
-    </head>
 <!--    kullanıcı email, kullanıcı adı, password ile sisteme giriş yapacak. formun nasıl görünecegi burada-->
-    <body>
+
         <!--oturum açma butonu işlemleri için gerekli olan kısım kayıt olma ve oturum açma hesabı-->
         <div >
             <ul class="nav navbar-nav navbar-right">
                 <!--                                        kayıt paneli-->
-                <li class="dropdown open" >
+                <li class="dropdown" >
 
-                    <a href="http://phpoll.com/register" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Kayıt OL <span class="caret"></span></a>
+                    <a href="http://phpoll.com/register" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Kayıt OL <span class="caret"></span></a>
                     <ul class="dropdown-menu dropdown-lr animated flipInX" role="menu" style="min-width: 200px">
                         <div class="col-lg-12">
                             <div class="text-center"><h3><b>Register</b></h3></div>
@@ -26,28 +17,28 @@
                                     <input name="username" id="username" tabindex="1" class="form-control" placeholder="Kullanıcı Adı" value="" type="text">
                                 </div>
                                 <div class="form-group">
-                                    <input name="email" id="email" tabindex="1" class="form-control" placeholder="Email Adresi" value="" type="email">
-                                </div>
-                                <div class="form-group">
-                                    <input name="password" id="password" tabindex="2" class="form-control" placeholder="Parola" type="password">
-                                </div>
-                                <div class="form-group">
-                                    <input name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Parola Onayla " type="password">
-                                </div>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-xs-6 col-xs-offset-3">
-                                            <input name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-info" value="Kayıt OL" type="submit">
-                                        </div>
-                                    </div>
-                                </div>
-                                <input class="hide" name="token" id="token" value="7c6f19960d63f53fcd05c3e0cbc434c0" type="hidden">
+                                  <input name="email" id="email" tabindex="1" class="form-control" placeholder="Email Adresi" value="" type="email">
+                               </div>
+                               <div class="form-group">
+                                  <input name="password" id="password" tabindex="2" class="form-control" placeholder="Parola" type="password">
+                               </div>
+                               <div class="form-group">
+                                  <input name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Parola Onayla " type="password">
+                               </div>
+                               <div class="form-group">
+                                  <div class="row">
+                                      <div class="col-xs-6 col-xs-offset-3">
+                                          <input name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-info" value="Kayıt OL" type="submit">
+                                      </div>
+                                 </div>
+                               </div>
+                                    <input class="hide" name="token" id="token" value="7c6f19960d63f53fcd05c3e0cbc434c0" type="hidden">
                             </form>
                         </div>
                     </ul>
                 </li>
                 <!--                                        login paneli-->
-                <li class="dropdown open" >
+                <li class="dropdown" >
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Oturum Aç</b> <span class="caret"></span></a>
                     <ul id="login-dp" class="dropdown-menu" style="min-width: 200px">
                         <li>
@@ -89,6 +80,3 @@
 
             </ul>
         </div>
-
-    </body>
-</html>

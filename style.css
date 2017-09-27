@@ -1,3 +1,5 @@
+.container-fluid .row .container-fluid .navbar-header .navbar-toogle {
+  z-index: 1; }
 .container-fluid .row .container-fluid .navbar-header .navbar-brand img {
   float: left;
   width: 100px;
@@ -23,8 +25,12 @@
   .container-fluid .media .col-md-4 .col-lg-2 .col-sm-6 {
     padding-left: 3px;
     padding-right: 3px; }
-.container-fluid .container #thumbnail {
-  margin-bottom: 5px; }
+  .container-fluid .media .container #thumbnail {
+    margin-bottom: 5px; }
+  .container-fluid .media .container a {
+    display: block; }
+    .container-fluid .media .container a img {
+      min-width: 100%; }
 .container-fluid .content #videoPage {
   padding-top: 10px; }
 

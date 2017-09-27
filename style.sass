@@ -1,7 +1,11 @@
+$elements: navbar-toogle
+
 .container-fluid
   .row
     .container-fluid
       .navbar-header
+        .navbar-toogle
+          z-index: index($elements, navbar-toogle)
         .navbar-brand
           img
             float: left
@@ -28,9 +32,13 @@
     .col-md-4 .col-lg-2 .col-sm-6
       padding-left: 3px
       padding-right: 3px
-  .container
-    #thumbnail
-      margin-bottom: 5px
+    .container
+      #thumbnail
+        margin-bottom: 5px
+      a
+        display: block
+        img
+          min-width: 100%
   .content
     #videoPage
       padding-top: 10px

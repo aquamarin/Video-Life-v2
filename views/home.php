@@ -55,25 +55,25 @@
             <div class="video-series" style="margin-top: 10px;">
                 <!--<div class="row">-->
                 <!--burada daha önce izlenen videolar serisi olacak. bu videolar küçük boyutta olacak-->
-                <div class=" col-lg-6">
+                <div class=" col-sm-6 col-md-4 col-lg-2">
                     <a href="#">
 
                         <img src="/Video-Life-v2/images/Ariana Grande - Side To Side ft. Nicki Minaj.jpg" title="Ariana Grande - Side To Side" class="img-thumbnail">
                     </a>
                 </div>
 <!--                col-sm-6 col-md-4 col-lg-2-->
-                <div class=" col-lg-6">
+                <div class=" col-sm-6 col-md-4 col-lg-2">
 
                     <a href="#" >
                         <img src="/Video-Life-v2/images/Ariana Grande - Side To Side ft. Nicki Minaj.jpg" title="Ariana Grande - Side To Side" class="img-thumbnail">
                     </a>
                 </div>
-                <div class=" col-lg-6">
+                <div class=" col-sm-6 col-md-4 col-lg-2">
                     <a href="#" >
                         <img src="/Video-Life-v2/images/Ariana Grande - Side To Side ft. Nicki Minaj.jpg" title="Ariana Grande - Side To Side" class="img-thumbnail">
                     </a>
                 </div>
-                <div class=" col-lg-6">
+                <div class=" col-sm-6 col-md-4 col-lg-2">
                     <a href="#" >
                         <img src="/Video-Life-v2/images/Ariana Grande - Side To Side ft. Nicki Minaj.jpg" title="Ariana Grande - Side To Side" class="img-thumbnail">
                     </a>
