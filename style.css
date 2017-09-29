@@ -1,11 +1,15 @@
-.container-fluid .row .container-fluid .navbar-header .navbar-toogle {
-  z-index: 1; }
-.container-fluid .row .container-fluid .navbar-header .navbar-brand img {
-  float: left;
-  width: 100px;
-  height: 75px;
-  margin-top: 3px;
-  position: relative; }
+.container-fluid .row .navbar-default {
+  background-color: #c4e3f3;
+  height: 100px; }
+  .container-fluid .row .navbar-default .container-fluid .navbar-header #myNavbar {
+    z-index: 1;
+    background-color: #c4e3f3; }
+  .container-fluid .row .navbar-default .container-fluid .navbar-header .navbar-brand img {
+    float: left;
+    width: 100px;
+    height: 75px;
+    margin-top: 3px;
+    position: relative; }
 .container-fluid .jumbotron {
   text-align: center; }
 .container-fluid .media {
@@ -20,7 +24,7 @@
     -ms-transform: translate(-50%, -50%); }
   .container-fluid .media .FourVideo {
     margin-top: 15px; }
-    .container-fluid .media .FourVideo:hover {
+    .container-fluid .media .FourVideo .mainFour img:hover {
       opacity: 0.4; }
   .container-fluid .media .col-md-4 .col-lg-2 .col-sm-6 {
     padding-left: 3px;
@@ -33,5 +37,7 @@
       min-width: 100%; }
 .container-fluid .content #videoPage {
   padding-top: 10px; }
+.container-fluid .content .nav-justified {
+  z-index: 2; }
 
 /*# sourceMappingURL=style.css.map */

@@ -24,27 +24,27 @@
 
                 </div> <!-- .col-sm-12 col-md-12  col-lg-5 container-->
 <!--                yan orta boy videoların kısmı-->
-                <div class="FourVideo">
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 container"  class= "mainFour" style="margin-bottom: 3px;">
+                <div class="FourVideo col-sm-12 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 container"  class= "mainFour" style="margin-bottom: 3px;">
                     <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="image img-thumbnail">
                     <div class="middle">
                        <img src="#" class="text" >
                      </div>
                 </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 container"  class= "mainFour" style="margin-bottom: 3px;">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 container"  class= "mainFour" style="margin-bottom: 3px;">
                         <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="image img-thumbnail">
                         <div class="middle">
                             <img src="#" class="text" >
                         </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 container"  class= "mainFour" style="margin-bottom: 3px;">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 container"  class= "mainFour" style="margin-bottom: 3px;">
                         <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="image img-thumbnail">
                         <div class="middle">
                             <img src="#" class="text" >
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 container"  class= "mainFour" style="margin-bottom: 3px;">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 container"  class= "mainFour" style="margin-bottom: 3px;">
                         <img src="/Video-Life-v2/images/4MINUTE -(Crazy)' (Choreography Practice Video).jpg" title="4MINUTE -(Crazy)" class="image img-thumbnail">
                         <div class="middle">
                             <img src="#" class="text" >

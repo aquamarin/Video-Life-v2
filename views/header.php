@@ -25,7 +25,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-xs-12 col-lg-12 ">
-            <nav class="navbar navbar-default " style="background-color: #c4e3f3; height: 100px;">
+            <nav class="navbar navbar-default ">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
