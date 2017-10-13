@@ -1,0 +1,55 @@
+$elements: navbarHeader,nav-justified
+$pixels: 3px
+$nav_backgroundColor: #c4e3f3
+@import "compass"
+@import "compass/css3/transform"
+.container-fluid
+  .top_menu_index
+    z-index: index($elements, nav-justified)
+  .row
+    nav
+      background-color: $nav_backgroundColor
+      height: 100px
+      .container-fluid
+        .navbar-collapse, .in
+          z-index: index($elements, navbarHeader)
+          background-color: $nav_backgroundColor
+        .navbar-brand
+          img
+            float: left
+            width: 100px
+            height: 75px
+            margin-top: $pixels
+            position: relative
+  .jumbotron
+    text-align: center
+  .media
+    padding-top: 10px
+    .middle
+      transition: .5s ease
+      opacity: 0
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      -ms-transform: translate(-50%, -50%)
+    .FourVideo
+      margin-top: 15px
+      .mainFour
+        img
+          &:hover
+            opacity: 0.4
+
+    .col-md-4 .col-lg-2 .col-sm-6
+      padding-left: $pixels
+      padding-right: $pixels
+    .container
+      #thumbnail
+        margin-bottom: 5px
+      a
+        display: block
+        img
+          min-width: 100%
+  .content
+    #videoPage
+      padding-top: 10px

@@ -1,0 +1,69 @@
+/* line 7, ../sass/main.sass */
+.container-fluid .top_menu_index {
+  z-index: 2;
+}
+/* line 10, ../sass/main.sass */
+.container-fluid .row nav {
+  background-color: #c4e3f3;
+  height: 100px;
+}
+/* line 14, ../sass/main.sass */
+.container-fluid .row nav .container-fluid .navbar-collapse, .container-fluid .row nav .container-fluid .in {
+  z-index: 1;
+  background-color: #c4e3f3;
+}
+/* line 18, ../sass/main.sass */
+.container-fluid .row nav .container-fluid .navbar-brand img {
+  float: left;
+  width: 100px;
+  height: 75px;
+  margin-top: 3px;
+  position: relative;
+}
+/* line 24, ../sass/main.sass */
+.container-fluid .jumbotron {
+  text-align: center;
+}
+/* line 26, ../sass/main.sass */
+.container-fluid .media {
+  padding-top: 10px;
+}
+/* line 28, ../sass/main.sass */
+.container-fluid .media .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* line 36, ../sass/main.sass */
+.container-fluid .media .FourVideo {
+  margin-top: 15px;
+}
+/* line 40, ../sass/main.sass */
+.container-fluid .media .FourVideo .mainFour img:hover {
+  opacity: 0.4;
+}
+/* line 43, ../sass/main.sass */
+.container-fluid .media .col-md-4 .col-lg-2 .col-sm-6 {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+/* line 47, ../sass/main.sass */
+.container-fluid .media .container #thumbnail {
+  margin-bottom: 5px;
+}
+/* line 49, ../sass/main.sass */
+.container-fluid .media .container a {
+  display: block;
+}
+/* line 51, ../sass/main.sass */
+.container-fluid .media .container a img {
+  min-width: 100%;
+}
+/* line 54, ../sass/main.sass */
+.container-fluid .content #videoPage {
+  padding-top: 10px;
+}
