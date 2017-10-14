@@ -1,18 +1,19 @@
-/* line 7, ../sass/main.sass */
+/* line 8, ../sass/main.sass */
 .container-fluid .top_menu_index {
   z-index: 2;
 }
-/* line 10, ../sass/main.sass */
+/* line 11, ../sass/main.sass */
 .container-fluid .row nav {
   background-color: #c4e3f3;
   height: 100px;
 }
-/* line 14, ../sass/main.sass */
+/* line 15, ../sass/main.sass */
 .container-fluid .row nav .container-fluid .navbar-collapse, .container-fluid .row nav .container-fluid .in {
+  position: relative;
   z-index: 1;
   background-color: #c4e3f3;
 }
-/* line 18, ../sass/main.sass */
+/* line 20, ../sass/main.sass */
 .container-fluid .row nav .container-fluid .navbar-brand img {
   float: left;
   width: 100px;
@@ -20,15 +21,15 @@
   margin-top: 3px;
   position: relative;
 }
-/* line 24, ../sass/main.sass */
+/* line 26, ../sass/main.sass */
 .container-fluid .jumbotron {
   text-align: center;
 }
-/* line 26, ../sass/main.sass */
+/* line 28, ../sass/main.sass */
 .container-fluid .media {
   padding-top: 10px;
 }
-/* line 28, ../sass/main.sass */
+/* line 30, ../sass/main.sass */
 .container-fluid .media .middle {
   transition: 0.5s ease;
   opacity: 0;
@@ -38,32 +39,92 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-/* line 36, ../sass/main.sass */
+/* line 38, ../sass/main.sass */
 .container-fluid .media .FourVideo {
   margin-top: 15px;
 }
-/* line 40, ../sass/main.sass */
+/* line 42, ../sass/main.sass */
 .container-fluid .media .FourVideo .mainFour img:hover {
   opacity: 0.4;
 }
-/* line 43, ../sass/main.sass */
+/* line 44, ../sass/main.sass */
 .container-fluid .media .col-md-4 .col-lg-2 .col-sm-6 {
   padding-left: 3px;
   padding-right: 3px;
 }
-/* line 47, ../sass/main.sass */
+/* line 48, ../sass/main.sass */
 .container-fluid .media .container #thumbnail {
   margin-bottom: 5px;
 }
-/* line 49, ../sass/main.sass */
+/* line 50, ../sass/main.sass */
 .container-fluid .media .container a {
   display: block;
 }
-/* line 51, ../sass/main.sass */
+/* line 52, ../sass/main.sass */
 .container-fluid .media .container a img {
   min-width: 100%;
 }
-/* line 54, ../sass/main.sass */
+/* line 55, ../sass/main.sass */
 .container-fluid .content #videoPage {
   padding-top: 10px;
+}
+/* line 57, ../sass/main.sass */
+.container-fluid .content #videoPage video {
+  max-width: 100%;
+}
+/* line 60, ../sass/main.sass */
+.container-fluid .content #videoPage .videoDetails i {
+  margin: 0 20px;
+  color: #333;
+  cursor: pointer;
+}
+/* line 66, ../sass/main.sass */
+.container-fluid .content #videoPage .videoDetails .ex3 i:hover {
+  color: #ef43a1;
+  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+/* line 70, ../sass/main.sass */
+.container-fluid .content #videoPage .videoList {
+  float: left;
+}
+/* line 73, ../sass/main.sass */
+.container-fluid .content #appbar-nav-menu {
+  margin-top: 10px;
+}
+/* line 75, ../sass/main.sass */
+.container-fluid .content .Text {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+/* line 81, ../sass/main.sass */
+.container-fluid .content .thisWeek, .container-fluid .content .thisMonth {
+  border-bottom: solid #c4e3f3 1px;
+  padding-bottom: 10px;
+}
+/* line 84, ../sass/main.sass */
+.container-fluid .content .thisWeek h3, .container-fluid .content .thisMonth h3 {
+  font-size: 200%;
+}
+/* line 87, ../sass/main.sass */
+.container-fluid .content .thisWeek .row .videoFix, .container-fluid .content .thisMonth .row .videoFix {
+  position: relative;
+}
+/* line 89, ../sass/main.sass */
+.container-fluid .content .thisWeek .row .videoFix time, .container-fluid .content .thisMonth .row .videoFix time {
+  color: white;
+  position: absolute;
+  right: 30px;
+  bottom: 55px;
+}
+/* line 94, ../sass/main.sass */
+.container-fluid .content .thisWeek .row .videoFix .videoText, .container-fluid .content .thisMonth .row .videoFix .videoText {
+  color: black;
 }
