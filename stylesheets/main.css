@@ -1,19 +1,19 @@
-/* line 8, ../sass/main.sass */
+/* line 10, ../sass/main.sass */
 .container-fluid .top_menu_index {
   z-index: 2;
 }
-/* line 11, ../sass/main.sass */
+/* line 13, ../sass/main.sass */
 .container-fluid .row nav {
   background-color: #c4e3f3;
   height: 100px;
 }
-/* line 15, ../sass/main.sass */
+/* line 17, ../sass/main.sass */
 .container-fluid .row nav .container-fluid .navbar-collapse, .container-fluid .row nav .container-fluid .in {
   position: relative;
   z-index: 1;
   background-color: #c4e3f3;
 }
-/* line 20, ../sass/main.sass */
+/* line 22, ../sass/main.sass */
 .container-fluid .row nav .container-fluid .navbar-brand img {
   float: left;
   width: 100px;
@@ -21,15 +21,15 @@
   margin-top: 3px;
   position: relative;
 }
-/* line 26, ../sass/main.sass */
+/* line 28, ../sass/main.sass */
 .container-fluid .jumbotron {
   text-align: center;
 }
-/* line 28, ../sass/main.sass */
+/* line 30, ../sass/main.sass */
 .container-fluid .media {
   padding-top: 10px;
 }
-/* line 30, ../sass/main.sass */
+/* line 32, ../sass/main.sass */
 .container-fluid .media .middle {
   transition: 0.5s ease;
   opacity: 0;
@@ -39,48 +39,64 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-/* line 38, ../sass/main.sass */
+/* line 40, ../sass/main.sass */
 .container-fluid .media .FourVideo {
   margin-top: 15px;
 }
-/* line 42, ../sass/main.sass */
+/* line 44, ../sass/main.sass */
 .container-fluid .media .FourVideo .mainFour img:hover {
   opacity: 0.4;
 }
-/* line 44, ../sass/main.sass */
+/* line 46, ../sass/main.sass */
 .container-fluid .media .col-md-4 .col-lg-2 .col-sm-6 {
   padding-left: 3px;
   padding-right: 3px;
 }
-/* line 48, ../sass/main.sass */
+/* line 50, ../sass/main.sass */
 .container-fluid .media .container #thumbnail {
   margin-bottom: 5px;
 }
-/* line 50, ../sass/main.sass */
+/* line 52, ../sass/main.sass */
 .container-fluid .media .container a {
   display: block;
 }
-/* line 52, ../sass/main.sass */
+/* line 54, ../sass/main.sass */
 .container-fluid .media .container a img {
   min-width: 100%;
 }
-/* line 55, ../sass/main.sass */
-.container-fluid .content #videoPage {
-  padding-top: 10px;
-}
 /* line 57, ../sass/main.sass */
-.container-fluid .content #videoPage video {
-  max-width: 100%;
+.container-fluid .content .videoPage {
+  margin-top: 10px;
 }
-/* line 60, ../sass/main.sass */
-.container-fluid .content #videoPage .videoDetails i {
-  margin: 0 20px;
+/* line 59, ../sass/main.sass */
+.container-fluid .content .videoPage .videoDetails {
+  margin-top: 12px;
+}
+/* line 61, ../sass/main.sass */
+.container-fluid .content .videoPage .videoDetails .VideoExplanation {
+  border-top: 1px solid #1EA6EB;
+  border-bottom: 1px solid #1EA6EB;
+  font-size: 12px;
+}
+/* line 65, ../sass/main.sass */
+.container-fluid .content .videoPage .videoDetails p {
+  font-size: 20px;
+  padding-left: 0;
+}
+/* line 68, ../sass/main.sass */
+.container-fluid .content .videoPage .videoDetails i {
+  float: left;
+  margin: 0 3px;
   color: #333;
   cursor: pointer;
 }
-/* line 66, ../sass/main.sass */
-.container-fluid .content #videoPage .videoDetails .ex3 i:hover {
-  color: #ef43a1;
+/* line 73, ../sass/main.sass */
+.container-fluid .content .videoPage .videoDetails .ex3 {
+  float: right;
+}
+/* line 76, ../sass/main.sass */
+.container-fluid .content .videoPage .videoDetails .ex3 i:hover {
+  color: #1EA6EB;
   -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -90,41 +106,45 @@
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
 }
-/* line 70, ../sass/main.sass */
-.container-fluid .content #videoPage .videoList {
+/* line 80, ../sass/main.sass */
+.container-fluid .content .videoPage video {
+  max-width: 100%;
+}
+/* line 82, ../sass/main.sass */
+.container-fluid .content .videoPage .videoList {
   float: left;
 }
-/* line 73, ../sass/main.sass */
+/* line 84, ../sass/main.sass */
 .container-fluid .content #appbar-nav-menu {
   margin-top: 10px;
 }
-/* line 75, ../sass/main.sass */
+/* line 86, ../sass/main.sass */
 .container-fluid .content .Text {
   font-size: 20px;
   text-align: center;
   margin-top: 10px;
 }
-/* line 81, ../sass/main.sass */
+/* line 92, ../sass/main.sass */
 .container-fluid .content .thisWeek, .container-fluid .content .thisMonth {
-  border-bottom: solid #c4e3f3 1px;
+  border-bottom: border_type;
   padding-bottom: 10px;
 }
-/* line 84, ../sass/main.sass */
+/* line 95, ../sass/main.sass */
 .container-fluid .content .thisWeek h3, .container-fluid .content .thisMonth h3 {
   font-size: 200%;
 }
-/* line 87, ../sass/main.sass */
+/* line 98, ../sass/main.sass */
 .container-fluid .content .thisWeek .row .videoFix, .container-fluid .content .thisMonth .row .videoFix {
   position: relative;
 }
-/* line 89, ../sass/main.sass */
+/* line 100, ../sass/main.sass */
 .container-fluid .content .thisWeek .row .videoFix time, .container-fluid .content .thisMonth .row .videoFix time {
   color: white;
   position: absolute;
   right: 30px;
   bottom: 55px;
 }
-/* line 94, ../sass/main.sass */
+/* line 105, ../sass/main.sass */
 .container-fluid .content .thisWeek .row .videoFix .videoText, .container-fluid .content .thisMonth .row .videoFix .videoText {
   color: black;
 }

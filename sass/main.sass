@@ -1,7 +1,9 @@
 $elements: navbarHeader,nav-justified
 $indent: 3px
 $nav_backgroundColor: #c4e3f3
+$icon_color: #1EA6EB
 $top_indent: 10px
+$border_type: 1px solid $icon_color
 @import compass
 @import compass/css3/transform
 .container-fluid
@@ -52,24 +54,33 @@ $top_indent: 10px
         img
           min-width: 100%
   .content
-    #videoPage
-      padding-top: $top_indent
-      video
-        max-width: 100%
+    .videoPage
+      margin-top: $top_indent
       .videoDetails
+        margin-top: $top_indent+2
+        .VideoExplanation
+          border-top: $border_type
+          border-bottom: $border_type
+          font-size: 12px
+        p
+          font-size: 20px
+          padding-left: 0
         i
-          margin: 0 20px
+          float: left
+          margin: 0 $indent
           color: #333
           cursor: pointer
         .ex3
+          float: right
           i
             &:hover
-              color: #ef43a1
+              color: $icon_color
               @include transition(all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55))
               @include transform(translateY(-10px))
+      video
+        max-width: 100%
       .videoList
         float: left
-
     #appbar-nav-menu
       margin-top: $top_indent
     .Text
@@ -79,7 +90,7 @@ $top_indent: 10px
     .thisMonth
       @extend .thisWeek
     .thisWeek
-      border-bottom: solid $nav_backgroundColor 1px
+      border-bottom: border_type
       padding-bottom: $top_indent
       h3
         font-size: 200%
