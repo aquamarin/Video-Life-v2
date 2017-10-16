@@ -1,12 +1,18 @@
+@import compass
+@import compass/css3/transform
+
 $elements: navbarHeader,nav-justified
 $indent: 3px
 $nav_backgroundColor: #c4e3f3
 $icon_color: #1EA6EB
 $top_indent: 10px
 $border_type: 1px solid $icon_color
-@import compass
-@import compass/css3/transform
+$icon-width: 50px
+$icon-height: 50px
+
 .container-fluid
+  .clear
+    clear: both
   .top_menu_index
     z-index: index($elements, nav-justified)
   .row
@@ -25,6 +31,10 @@ $border_type: 1px solid $icon_color
             height: 75px
             margin-top: $indent
             position: relative
+        .navbar-right
+          img
+            width: $icon-width/2
+            height: $icon-height/2
   .jumbotron
     text-align: center
   .media
@@ -63,7 +73,7 @@ $border_type: 1px solid $icon_color
           border-bottom: $border_type
           font-size: 12px
         p
-          font-size: 20px
+          font-size: 18px
           padding-left: 0
         i
           float: left
@@ -77,12 +87,46 @@ $border_type: 1px solid $icon_color
               color: $icon_color
               @include transition(all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55))
               @include transform(translateY(-10px))
+      .comments
+        background-color: #E9E9E9
+        margin-top: $top_indent+10
+        padding-bottom: $top_indent+10
+        .comments_header
+          font-size: 17px
+          font-weight: 200 !important
+        .personel
+          border-bottom: $border_type
+          margin-top: $top_indent+5
+          padding-bottom: $top_indent+5
+          .profilPicture
+            width: $icon-width
+            height: $icon-height
+            float: left
+            padding-left: 0
+            padding-right: 0
+            margin-top: $top_indent
+            img
+              max-width: 100%
+          .personelComment
+            float: right
+            textarea
+              resize: none
+        .sortOfComments
+          margin-top: $top_indent+5
       video
         max-width: 100%
       .videoList
         float: left
     #appbar-nav-menu
       margin-top: $top_indent
+      .dropdown
+        ul
+          li
+            &:last-child
+              padding-bottom: $indent
+          h3
+            font-size: 200
+            padding-left: $top_indent
     .Text
       font-size: 20px
       text-align: center

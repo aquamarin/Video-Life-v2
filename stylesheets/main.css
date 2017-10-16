@@ -1,19 +1,23 @@
-/* line 10, ../sass/main.sass */
+/* line 14, ../sass/main.sass */
+.container-fluid .clear {
+  clear: both;
+}
+/* line 16, ../sass/main.sass */
 .container-fluid .top_menu_index {
   z-index: 2;
 }
-/* line 13, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 .container-fluid .row nav {
   background-color: #c4e3f3;
   height: 100px;
 }
-/* line 17, ../sass/main.sass */
+/* line 23, ../sass/main.sass */
 .container-fluid .row nav .container-fluid .navbar-collapse, .container-fluid .row nav .container-fluid .in {
   position: relative;
   z-index: 1;
   background-color: #c4e3f3;
 }
-/* line 22, ../sass/main.sass */
+/* line 28, ../sass/main.sass */
 .container-fluid .row nav .container-fluid .navbar-brand img {
   float: left;
   width: 100px;
@@ -21,15 +25,20 @@
   margin-top: 3px;
   position: relative;
 }
-/* line 28, ../sass/main.sass */
+/* line 35, ../sass/main.sass */
+.container-fluid .row nav .container-fluid .navbar-right img {
+  width: 25px;
+  height: 25px;
+}
+/* line 38, ../sass/main.sass */
 .container-fluid .jumbotron {
   text-align: center;
 }
-/* line 30, ../sass/main.sass */
+/* line 40, ../sass/main.sass */
 .container-fluid .media {
   padding-top: 10px;
 }
-/* line 32, ../sass/main.sass */
+/* line 42, ../sass/main.sass */
 .container-fluid .media .middle {
   transition: 0.5s ease;
   opacity: 0;
@@ -39,62 +48,62 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-/* line 40, ../sass/main.sass */
+/* line 50, ../sass/main.sass */
 .container-fluid .media .FourVideo {
   margin-top: 15px;
 }
-/* line 44, ../sass/main.sass */
+/* line 54, ../sass/main.sass */
 .container-fluid .media .FourVideo .mainFour img:hover {
   opacity: 0.4;
 }
-/* line 46, ../sass/main.sass */
+/* line 56, ../sass/main.sass */
 .container-fluid .media .col-md-4 .col-lg-2 .col-sm-6 {
   padding-left: 3px;
   padding-right: 3px;
 }
-/* line 50, ../sass/main.sass */
+/* line 60, ../sass/main.sass */
 .container-fluid .media .container #thumbnail {
   margin-bottom: 5px;
 }
-/* line 52, ../sass/main.sass */
+/* line 62, ../sass/main.sass */
 .container-fluid .media .container a {
   display: block;
 }
-/* line 54, ../sass/main.sass */
+/* line 64, ../sass/main.sass */
 .container-fluid .media .container a img {
   min-width: 100%;
 }
-/* line 57, ../sass/main.sass */
+/* line 67, ../sass/main.sass */
 .container-fluid .content .videoPage {
   margin-top: 10px;
 }
-/* line 59, ../sass/main.sass */
+/* line 69, ../sass/main.sass */
 .container-fluid .content .videoPage .videoDetails {
   margin-top: 12px;
 }
-/* line 61, ../sass/main.sass */
+/* line 71, ../sass/main.sass */
 .container-fluid .content .videoPage .videoDetails .VideoExplanation {
   border-top: 1px solid #1EA6EB;
   border-bottom: 1px solid #1EA6EB;
   font-size: 12px;
 }
-/* line 65, ../sass/main.sass */
+/* line 75, ../sass/main.sass */
 .container-fluid .content .videoPage .videoDetails p {
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 0;
 }
-/* line 68, ../sass/main.sass */
+/* line 78, ../sass/main.sass */
 .container-fluid .content .videoPage .videoDetails i {
   float: left;
   margin: 0 3px;
   color: #333;
   cursor: pointer;
 }
-/* line 73, ../sass/main.sass */
+/* line 83, ../sass/main.sass */
 .container-fluid .content .videoPage .videoDetails .ex3 {
   float: right;
 }
-/* line 76, ../sass/main.sass */
+/* line 86, ../sass/main.sass */
 .container-fluid .content .videoPage .videoDetails .ex3 i:hover {
   color: #1EA6EB;
   -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -106,45 +115,96 @@
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
 }
-/* line 80, ../sass/main.sass */
+/* line 90, ../sass/main.sass */
+.container-fluid .content .videoPage .comments {
+  background-color: #E9E9E9;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 94, ../sass/main.sass */
+.container-fluid .content .videoPage .comments .comments_header {
+  font-size: 17px;
+  font-weight: 200 !important;
+}
+/* line 97, ../sass/main.sass */
+.container-fluid .content .videoPage .comments .personel {
+  border-bottom: 1px solid #1EA6EB;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 101, ../sass/main.sass */
+.container-fluid .content .videoPage .comments .personel .profilPicture {
+  width: 50px;
+  height: 50px;
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 10px;
+}
+/* line 108, ../sass/main.sass */
+.container-fluid .content .videoPage .comments .personel .profilPicture img {
+  max-width: 100%;
+}
+/* line 110, ../sass/main.sass */
+.container-fluid .content .videoPage .comments .personel .personelComment {
+  float: right;
+}
+/* line 112, ../sass/main.sass */
+.container-fluid .content .videoPage .comments .personel .personelComment textarea {
+  resize: none;
+}
+/* line 114, ../sass/main.sass */
+.container-fluid .content .videoPage .comments .sortOfComments {
+  margin-top: 15px;
+}
+/* line 116, ../sass/main.sass */
 .container-fluid .content .videoPage video {
   max-width: 100%;
 }
-/* line 82, ../sass/main.sass */
+/* line 118, ../sass/main.sass */
 .container-fluid .content .videoPage .videoList {
   float: left;
 }
-/* line 84, ../sass/main.sass */
+/* line 120, ../sass/main.sass */
 .container-fluid .content #appbar-nav-menu {
   margin-top: 10px;
 }
-/* line 86, ../sass/main.sass */
+/* line 125, ../sass/main.sass */
+.container-fluid .content #appbar-nav-menu .dropdown ul li:last-child {
+  padding-bottom: 3px;
+}
+/* line 127, ../sass/main.sass */
+.container-fluid .content #appbar-nav-menu .dropdown ul h3 {
+  font-size: 200;
+  padding-left: 10px;
+}
+/* line 130, ../sass/main.sass */
 .container-fluid .content .Text {
   font-size: 20px;
   text-align: center;
   margin-top: 10px;
 }
-/* line 92, ../sass/main.sass */
+/* line 136, ../sass/main.sass */
 .container-fluid .content .thisWeek, .container-fluid .content .thisMonth {
   border-bottom: border_type;
   padding-bottom: 10px;
 }
-/* line 95, ../sass/main.sass */
+/* line 139, ../sass/main.sass */
 .container-fluid .content .thisWeek h3, .container-fluid .content .thisMonth h3 {
   font-size: 200%;
 }
-/* line 98, ../sass/main.sass */
+/* line 142, ../sass/main.sass */
 .container-fluid .content .thisWeek .row .videoFix, .container-fluid .content .thisMonth .row .videoFix {
   position: relative;
 }
-/* line 100, ../sass/main.sass */
+/* line 144, ../sass/main.sass */
 .container-fluid .content .thisWeek .row .videoFix time, .container-fluid .content .thisMonth .row .videoFix time {
   color: white;
   position: absolute;
   right: 30px;
   bottom: 55px;
 }
-/* line 105, ../sass/main.sass */
+/* line 149, ../sass/main.sass */
 .container-fluid .content .thisWeek .row .videoFix .videoText, .container-fluid .content .thisMonth .row .videoFix .videoText {
   color: black;
 }

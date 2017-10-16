@@ -48,7 +48,9 @@
                   <a href="home.php">Anasayfa  <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Trendler <span class="caret"></span></a>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Trendler
+                    <span class="caret"></span>
+                  </a>
                   <ul class="dropdown-menu">
                     <li>
                       <a href="trendler.php">Günün Trendleri</a>
