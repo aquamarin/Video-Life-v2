@@ -1,8 +1,9 @@
 <?
+$page="abonelikler";
 require_once "header.php";
 ?>
 <div class="content" style="margin-top: 5px;">
-  <? require_once "top_menu.php"; ?>
+  <!-- top_menu.php buradaydı -->
   <? require_once "left-dropdown.php"; ?>
   <div class="col-lg-10">
     <p class="Text">Abone Olduğunuz Kanallarda Paylaşılan Videolar</p>
@@ -12,7 +13,7 @@ require_once "header.php";
         <? for ($i=0; $i <6 ; $i++) : ?>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 videoFix">
             <a href="#">
-              <img src="/Video-Life-v2/images/Chandelier - Sia _ Lia Kim Choreography.jpg" title="Sia _ Lia Kim Choreography" class="image img-thumbnail">
+              <img src="/Video-Life-v2/bootstrap-sass/assets/images/Chandelier - Sia _ Lia Kim Choreography.jpg" title="Sia _ Lia Kim Choreography" class="image img-thumbnail">
               <div class="time">
                 <time>2:45</time>
               </div>
@@ -30,7 +31,7 @@ require_once "header.php";
         <? for ($i=0; $i <6 ; $i++) : ?>
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 videoFix">
             <a href="#">
-              <img src="/Video-Life-v2/images/Chandelier - Sia _ Lia Kim Choreography.jpg" title="Sia _ Lia Kim Choreography" class="image img-thumbnail">
+              <img src="/Video-Life-v2/bootstrap-sass/assets/images/Chandelier - Sia _ Lia Kim Choreography.jpg" title="Sia _ Lia Kim Choreography" class="image img-thumbnail">
               <div class="time">
                 <time>2:45</time>
               </div>

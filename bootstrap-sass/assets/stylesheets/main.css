@@ -1,0 +1,251 @@
+/* line 18, ../sass/main.sass */
+body {
+  position: relative;
+}
+/* line 21, ../sass/main.sass */
+body .container-fluid .clear {
+  clear: both;
+}
+/* line 26, ../sass/main.sass */
+body .container-fluid .container .row .content .trendler_media {
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+/* line 29, ../sass/main.sass */
+body .container-fluid .container .row .content .trendler_media img {
+  width: 200px;
+}
+/* line 31, ../sass/main.sass */
+body .container-fluid .top_menu_index {
+  z-index: 300;
+}
+/* line 34, ../sass/main.sass */
+body .container-fluid .row nav {
+  background-color: #c4e3f3;
+  height: 100px;
+}
+/* line 38, ../sass/main.sass */
+body .container-fluid .row nav .container-fluid .navbar-collapse, body .container-fluid .row nav .container-fluid .in {
+  position: relative;
+  z-index: 100;
+  background-color: #c4e3f3;
+}
+/* line 44, ../sass/main.sass */
+body .container-fluid .row nav .container-fluid .navbar-brand img {
+  float: left;
+  width: 100px;
+  height: 75px;
+  margin-top: 3px;
+  position: relative;
+  z-index: 200;
+}
+/* line 52, ../sass/main.sass */
+body .container-fluid .row nav .container-fluid .navbar-right img {
+  width: 25px;
+  height: 25px;
+}
+/* line 58, ../sass/main.sass */
+body .container-fluid .row nav .container-fluid .navbar-nav li .active:hover {
+  background-color: grey;
+}
+/* line 60, ../sass/main.sass */
+body .container-fluid .row nav .container-fluid .navbar-nav li:not(.active) {
+  background-color: #c4e3f3;
+}
+/* line 63, ../sass/main.sass */
+body .container-fluid .jumbotron {
+  text-align: center;
+}
+/* line 65, ../sass/main.sass */
+body .container-fluid .media {
+  padding-top: 10px;
+}
+/* line 1, ../sass/videoDetailsContent.sass */
+body .container-fluid .media .container {
+  position: relative;
+}
+/* line 3, ../sass/videoDetailsContent.sass */
+body .container-fluid .media .container time {
+  color: white;
+  position: absolute;
+  right: 30px;
+  bottom: 55px;
+}
+/* line 8, ../sass/videoDetailsContent.sass */
+body .container-fluid .media .container .videoText {
+  color: black;
+}
+/* line 69, ../sass/main.sass */
+body .container-fluid .media .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* line 77, ../sass/main.sass */
+body .container-fluid .media .FourVideo {
+  margin-top: 15px;
+}
+/* line 82, ../sass/main.sass */
+body .container-fluid .media .FourVideo .mainFour img:hover {
+  opacity: 0.4;
+}
+/* line 84, ../sass/main.sass */
+body .container-fluid .media .videoSeries {
+  margin-top: 10px;
+}
+/* line 86, ../sass/main.sass */
+body .container-fluid .media .videoSeries .videoSeriesInside {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+/* line 91, ../sass/main.sass */
+body .container-fluid .media .container #thumbnail {
+  margin-bottom: 5px;
+}
+/* line 93, ../sass/main.sass */
+body .container-fluid .media .container a {
+  display: block;
+}
+/* line 95, ../sass/main.sass */
+body .container-fluid .media .container a img {
+  min-width: 100%;
+}
+/* line 98, ../sass/main.sass */
+body .container-fluid .content .videoPage {
+  margin-top: 10px;
+}
+/* line 100, ../sass/main.sass */
+body .container-fluid .content .videoPage .videoDetails {
+  margin-top: 12px;
+}
+/* line 102, ../sass/main.sass */
+body .container-fluid .content .videoPage .videoDetails .VideoExplanation {
+  border-top: 1px solid #1EA6EB;
+  border-bottom: 1px solid #1EA6EB;
+  font-size: 12px;
+}
+/* line 106, ../sass/main.sass */
+body .container-fluid .content .videoPage .videoDetails p {
+  font-size: 18px;
+  padding-left: 0;
+}
+/* line 109, ../sass/main.sass */
+body .container-fluid .content .videoPage .videoDetails i {
+  float: left;
+  margin: 0 3px;
+  color: #333;
+  cursor: pointer;
+}
+/* line 114, ../sass/main.sass */
+body .container-fluid .content .videoPage .videoDetails .ex3 {
+  float: right;
+}
+/* line 117, ../sass/main.sass */
+body .container-fluid .content .videoPage .videoDetails .ex3 i:hover {
+  color: #1EA6EB;
+  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+/* line 121, ../sass/main.sass */
+body .container-fluid .content .videoPage .comments {
+  background-color: #E9E9E9;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 125, ../sass/main.sass */
+body .container-fluid .content .videoPage .comments .comments_header {
+  font-size: 17px;
+  font-weight: 200 !important;
+}
+/* line 128, ../sass/main.sass */
+body .container-fluid .content .videoPage .comments .personel {
+  border-bottom: 1px solid #1EA6EB;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 132, ../sass/main.sass */
+body .container-fluid .content .videoPage .comments .personel .profilPicture {
+  width: 50px;
+  height: 50px;
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 10px;
+}
+/* line 139, ../sass/main.sass */
+body .container-fluid .content .videoPage .comments .personel .profilPicture img {
+  max-width: 100%;
+}
+/* line 141, ../sass/main.sass */
+body .container-fluid .content .videoPage .comments .personel .personelComment {
+  float: right;
+}
+/* line 143, ../sass/main.sass */
+body .container-fluid .content .videoPage .comments .personel .personelComment textarea {
+  resize: none;
+}
+/* line 145, ../sass/main.sass */
+body .container-fluid .content .videoPage .comments .sortOfComments {
+  margin-top: 15px;
+}
+/* line 147, ../sass/main.sass */
+body .container-fluid .content .videoPage video {
+  max-width: 100%;
+}
+/* line 149, ../sass/main.sass */
+body .container-fluid .content .videoPage .videoList {
+  float: left;
+}
+/* line 151, ../sass/main.sass */
+body .container-fluid .content #appbar-nav-menu {
+  margin-top: 10px;
+}
+/* line 156, ../sass/main.sass */
+body .container-fluid .content #appbar-nav-menu .dropdown ul li:last-child {
+  padding-bottom: 3px;
+}
+/* line 158, ../sass/main.sass */
+body .container-fluid .content #appbar-nav-menu .dropdown ul h3 {
+  font-size: 200;
+  padding-left: 10px;
+}
+/* line 161, ../sass/main.sass */
+body .container-fluid .content .Text {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+/* line 167, ../sass/main.sass */
+body .container-fluid .content .thisWeek, body .container-fluid .content .thisMonth {
+  border-bottom: border_type;
+  padding-bottom: 10px;
+}
+/* line 170, ../sass/main.sass */
+body .container-fluid .content .thisWeek h3, body .container-fluid .content .thisMonth h3 {
+  font-size: 200%;
+}
+/* line 173, ../sass/main.sass */
+body .container-fluid .content .thisWeek .row .videoFix, body .container-fluid .content .thisMonth .row .videoFix {
+  position: relative;
+}
+/* line 175, ../sass/main.sass */
+body .container-fluid .content .thisWeek .row .videoFix time, body .container-fluid .content .thisMonth .row .videoFix time {
+  color: white;
+  position: absolute;
+  right: 30px;
+  bottom: 55px;
+}
+/* line 180, ../sass/main.sass */
+body .container-fluid .content .thisWeek .row .videoFix .videoText, body .container-fluid .content .thisMonth .row .videoFix .videoText {
+  color: black;
+}

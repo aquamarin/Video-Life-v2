@@ -5,10 +5,6 @@
     <!--glyphicon glyphicon-fire-->
     <!--glyphicon glyphicon-time-->
     <!-- kullanıcı iconuna tıklanınca dropdown menu açılacak.
-
-
-
-
     <span class="fa fa-hourglass-end" aria-hidden="true"> </span>
     Abonelikler
   -->
@@ -21,7 +17,7 @@
       </button>
       <ul class="dropdown-menu">
         <li>
-          <a href="#">
+          <a href="home.php">
             <span class="fa fa-home" aria-hidden="true"> </span>
             Anasayfa
           </a>
@@ -33,7 +29,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="trendler.php">
             <span class="fa fa-fire" aria-hidden="true">&nbsp;</span>
             Trendler
           </a>
@@ -53,7 +49,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="begendiklerim.php">
             <span class="fa fa-thumbs-o-up" aria-hidden="true"> </span>
             Beğendiğim Videolar
           </a>

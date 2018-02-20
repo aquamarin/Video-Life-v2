@@ -1,0 +1,181 @@
+@import compass
+@import compass/css3/transform
+@import "maps.scss"
+// sass list ve object e multiline desteklemediği için scss de yazıp
+//   sass dosyasına import ederek kullandık
+
+@function z-index($key)
+  @return map-get($z-index, $key)
+
+$indent: 3px
+$nav_backgroundColor: #c4e3f3
+$icon_color: #1EA6EB
+$top_indent: 10px
+$border_type: 1px solid $icon_color
+$icon-width: 50px
+$icon-height: 50px
+
+body
+  position: relative
+  .container-fluid
+    .clear
+      clear: both
+    .container
+      .row
+        .content
+          .trendler_media
+            margin-bottom: $indent+5
+            margin-right: $top_indent
+            img
+              width: 200px
+    .top_menu_index
+      z-index: z-index(nav-justified)
+    .row
+      nav
+        background-color: $nav_backgroundColor
+        height: 100px
+        .container-fluid
+          .navbar-collapse, .in
+            // float: right
+            position: relative
+            z-index: z-index(navbarHeader)
+            background-color: $nav_backgroundColor
+          .navbar-brand
+            img
+              float: left
+              width: 100px
+              height: 75px
+              margin-top: $indent
+              position: relative
+              z-index: z-index(myLogo)
+          .navbar-right
+            img
+              width: $icon-width/2
+              height: $icon-height/2
+          .navbar-nav
+            li
+              .active
+                &:hover
+                  background-color: grey
+              &:not(.active)
+                background-color: $nav_backgroundColor
+
+    .jumbotron
+      text-align: center
+    .media
+      // videoDetailsContenttin import edildiği yerler burada
+      padding-top: $top_indent
+      @import videoDetailsContent
+      .middle
+        transition: .5s ease
+        opacity: 0
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        -ms-transform: translate(-50%, -50%)
+      .FourVideo
+        margin-top: $top_indent+5
+        @import videoDetailsContent
+        .mainFour
+          img
+            &:hover
+              opacity: 0.4
+      .videoSeries
+        margin-top: $top_indent
+        .videoSeriesInside
+          @import videoDetailsContent
+          padding-left: $indent
+          padding-right: $indent
+      .container
+        #thumbnail
+          margin-bottom: $indent+2
+        a
+          display: block
+          img
+            min-width: 100%
+    .content
+      .videoPage
+        margin-top: $top_indent
+        .videoDetails
+          margin-top: $top_indent+2
+          .VideoExplanation
+            border-top: $border_type
+            border-bottom: $border_type
+            font-size: 12px
+          p
+            font-size: 18px
+            padding-left: 0
+          i
+            float: left
+            margin: 0 $indent
+            color: #333
+            cursor: pointer
+          .ex3
+            float: right
+            i
+              &:hover
+                color: $icon_color
+                @include transition(all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55))
+                @include transform(translateY(-10px))
+        .comments
+          background-color: #E9E9E9
+          margin-top: $top_indent+10
+          padding-bottom: $top_indent+10
+          .comments_header
+            font-size: 17px
+            font-weight: 200 !important
+          .personel
+            border-bottom: $border_type
+            margin-top: $top_indent+5
+            padding-bottom: $top_indent+5
+            .profilPicture
+              width: $icon-width
+              height: $icon-height
+              float: left
+              padding-left: 0
+              padding-right: 0
+              margin-top: $top_indent
+              img
+                max-width: 100%
+            .personelComment
+              float: right
+              textarea
+                resize: none
+          .sortOfComments
+            margin-top: $top_indent+5
+        video
+          max-width: 100%
+        .videoList
+          float: left
+      #appbar-nav-menu
+        margin-top: $top_indent
+        .dropdown
+          ul
+            li
+              &:last-child
+                padding-bottom: $indent
+            h3
+              font-size: 200
+              padding-left: $top_indent
+      .Text
+        font-size: 20px
+        text-align: center
+        margin-top: $top_indent
+      .thisMonth
+        @extend .thisWeek
+      .thisWeek
+        border-bottom: border_type
+        padding-bottom: $top_indent
+        h3
+          font-size: 200%
+        .row
+          .videoFix
+            position: relative
+            time
+              color: white
+              position: absolute
+              right: $top_indent+20
+              bottom: 55px
+            .videoText
+              color: black

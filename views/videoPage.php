@@ -3,7 +3,7 @@ require_once "header.php";
 
 ?>
 <div class="content">
-  <? require_once "top_menu.php"; ?>
+  <!-- top_menu.php buradaydı -->
   <? require_once "left-dropdown.php"; ?>
   <div class="videoPage col-lg-10">
     <div class="col-sm-12 col-md-6 col-lg-6">
@@ -32,7 +32,7 @@ require_once "header.php";
         </div>   <!-- ./comments_header -->
         <div class="personel">
           <div class="profilPicture col-lg-1">
-            <img src="/Video-Life-v2/images/personel.png" alt="profil resmi">
+            <img src="/Video-Life-v2/bootstrap-sass/assets/images/personel.png" alt="profil resmi">
           </div>  <!-- ./profilPicture -->
           <div class="personelComment row col-lg-11">
             <textarea class="form-control " rows="3"></textarea>
@@ -59,7 +59,7 @@ require_once "header.php";
         <div >
           <div>
             <a href="">
-              <img src="/Video-Life-v2/images/TWICE(트와이스) _TT_ ♥ dance cover.jpg" title="TWICE-TT" class="img-thumbnail" id="thumbnail">
+              <img src="/Video-Life-v2/bootstrap-sass/assets/images/TWICE(트와이스) _TT_ ♥ dance cover.jpg" title="TWICE-TT" class="img-thumbnail" id="thumbnail">
             </a>
           </div>
           <div class="videoName">

@@ -3,6 +3,8 @@
 <!--    kullanıcı email, kullanıcı adı, password ile sisteme giriş yapacak. formun nasıl görünecegi burada-->
 
         <!--oturum açma butonu işlemleri için gerekli olan kısım kayıt olma ve oturum açma hesabı-->
+
+        <!-- GÖRÜNTÜSÜ KÖTÜ DÜZENLENECEK -->
         <div >
             <ul class="nav navbar-nav navbar-right">
                 <!--                                        kayıt paneli-->

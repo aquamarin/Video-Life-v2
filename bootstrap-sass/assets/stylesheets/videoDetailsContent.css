@@ -1,0 +1,15 @@
+/* line 1, ../sass/videoDetailsContent.sass */
+.container {
+  position: relative;
+}
+/* line 3, ../sass/videoDetailsContent.sass */
+.container time {
+  color: white;
+  position: absolute;
+  right: 30px;
+  bottom: 55px;
+}
+/* line 8, ../sass/videoDetailsContent.sass */
+.container .videoText {
+  color: black;
+}
